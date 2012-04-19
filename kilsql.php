@@ -4,6 +4,7 @@
  * User: kilexst
  * Date: 12.03.12
  * Time: 19:39
+ * Это лишь пример использования класса
  */
  
 require_once('class_kilsql.php');
@@ -19,10 +20,6 @@ $max=$kilsql->getFullTable();
 
 print_r($max);
 
-print '<br>';
-
-print '<br>';
-print '<br>';
 $search=$kilsql->searchKeys("chupokabra");
 print_r($search);
 print '<br>';
